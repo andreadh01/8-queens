@@ -11,7 +11,7 @@ function Chessboard({ solution, active }) {
 
   return (
     <div
-      className={`flex flex-wrap max-w-[448px]	sm:max-w-[640px] ${
+      className={`flex flex-wrap max-w-[320px]	sm:max-w-[640px] ${
         solution.length > 0 && 'pointer-events-none'
       }`}
     >

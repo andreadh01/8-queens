@@ -41,14 +41,14 @@ function Tile(props) {
     <div
       id={props.id}
       onClick={handleChange}
-      className={`w-14 h-14 sm:w-20 sm:h-20 ${props.color} py-2 flex justify-center`}
+      className={`w-10 h-10 sm:w-20 sm:h-20 ${props.color} py-2 flex justify-center`}
     >
       <figure className="inline-block	relative">
         {queen ||
         (props.solution !== undefined && props.solution.includes(props.id)) ? (
           <img
             id={props.id}
-            className="h-10 sm:h-16 relative z-10"
+            className="h-6 sm:h-16 relative z-10"
             alt="queen"
             src="./images/queen.png"
           ></img>
